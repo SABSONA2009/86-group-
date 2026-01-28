@@ -1,14 +1,14 @@
 
 
-# # password="saba12345"
-# # user_password=input("enter your password: ")
+password="saba12345"
+user_password=input("enter your password: ")
 
-# # while user_password != password:
-# #      print("this is not correct password: ")
+while user_password != password:
+     print("this is not correct password: ")
 
-# #      user_password=input("enter your password: ")
+     user_password=input("enter your password: ")
 
-# # print("correct")
+print("correct")
 
 
 
@@ -250,7 +250,7 @@
 # num=[1, 3, 5]
 
 # for number in num:
-#     print(number)
+# #     print(number)
 
 
 
@@ -259,79 +259,159 @@
 
 
 
-# adgilebi = 3
+# # adgilebi = 3
 
-# while adgilebi > 0:
-#     print("დარჩენილია ადგილები:", adgilebi)
+# # while adgilebi > 0:
+# #     print("დარჩენილია ადგილები:", adgilebi)
 
-#     buy = input("გინდა ადგილის შეძენა? (კი/არა): ")
+# #     buy = input("გინდა ადგილის შეძენა? (კი/არა): ")
 
-#     if buy == "კი":
-#         adgilebi -= 1
-#         print("ადგილი წარმატებით შეიძინე ✅")
-#     elif buy == "არა":
-#         print("შეძენა შეწყდა.")
+# #     if buy == "კი":
+# #         adgilebi -= 1
+# #         print("ადგილი წარმატებით შეიძინე ✅")
+# #     elif buy == "არა":
+# #         print("შეძენა შეწყდა.")
         
-#     else:
-#         print("გთხოვ სწორად შეიყვანე (კი ან არა)")
+# #     else:
+# #         print("გთხოვ სწორად შეიყვანე (კი ან არა)")
 
-# print("ადგილები აღარ არის ❌")
-
-
+# # print("ადგილები აღარ არის ❌")
 
 
 
 
 
 
-name="saba salukvadze var me"
-
-up_name=(name.upper())
-
-print(up_name)
 
 
-down=(name.lower())
+# name="saba salukvadze var me"
 
-print(down)
+# up_name=(name.upper())
 
-
-cap=(name.capitalize())
-
-print(cap)
+# print(up_name)
 
 
-next=(name.title())
+# down=(name.lower())
 
-print(next)
-
-
-find=(name.find(""))
-
-print(find)
+# print(down)
 
 
-text = "hello world hello python"
+# cap=(name.capitalize())
+
+# print(cap)
 
 
-index_o = text.find("o")
-print(index_o)
+# next=(name.title())
+
+# print(next)
 
 
-first_l = text.find("l")
-second_l = text.find("l", first_l + 1)
-print(second_l)
+# find=(name.find(""))
+
+# print(find)
 
 
-index_x = text.find("x")
-print(index_x)
+# text = "hello world hello python"
 
 
-index_world = text.find("world")
-print(index_world)
+# index_o = text.find("o")
+# print(index_o)
 
 
-print(text.find("java"))
+# first_l = text.find("l")
+# second_l = text.find("l", first_l + 1)
+# print(second_l)
+
+
+# index_x = text.find("x")
+# print(index_x)
+
+
+# index_world = text.find("world")
+# print(index_world)
+
+
+# print(text.find("java"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# print არის ფუნქცია რისი საშუალებითც შეგვიძლია გამოვიტანოთ ტერმინალში ფუნქცია () ამ ფრხილებით ვუთითებთ თუ რისი გამოტანა გვსურს
+
+
+
+
+
+
+# name="saba"
+
+# print(name)
+
+
+# # დეკლარაცია არის ცვლადის შექმნა
+
+
+# number=10
+
+# print(number)
+
+# number=20
+
+# print(number)
+
+
+# ახლა ამ მოქმედებით ჩვენ შევცვალეთ ცვლადის მნიშვნელობა
+
+
+
+
+
+
+
+
+
+# seats=30
+
+# user=input("გინდა ბილეთი?: ")
+
+# while seats > 0:
+#     print("you have tickets")
+
+#     seats -=1 
+#     print(seats)
+#     user=input("გინდა ბილეთი?: ")
+#     if user == "კი":
+#         seats -=1 , 
+    
+
+#     elif user == "არა":
+
+
+
+
+
+
+
+
+
+
 
 
 
