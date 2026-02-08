@@ -1,73 +1,75 @@
-# # append() - სიის ბოლოში ამატებს ახალ ელემენტს
-# # insert() - სიის კონკრეტულ პოზიციაზე ამატებს ელემენტს
-# # pop() - შლის ელემენტს სიიდან (ნაგულისხმევად ბოლო ელემენტს)
+# 1
+
+# append() - სიის ბოლოში ამატებს ახალ ელემენტს
+# insert() - სიის კონკრეტულ პოზიციაზე ამატებს ელემენტს
+# pop() - შლის ელემენტს სიიდან (ნაგულისხმევად ბოლო ელემენტს)
 
 
 
 
 
-# numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
 
-# print(len(numbers))
-
-
-
+print(len(numbers))
 
 
 
 
-# num1=int(input("enter your number: "))
-
-
-# num2=int(input("enter your number: "))
-
-
-# num3=int(input("enter your number: "))
-
-
-# num4=int(input("enter your number: "))
-
-
-# num5=int(input("enter your number: "))
-
-
-# number=(num1, num2, num3, num4, num5)
 
 
 
-# numbers.append(23)
-
-# print(numbers)
-
-# colors = ["red", "green", "blue", "yellow", "purple"]
-
-# colors.pop()  
-# print(colors)
+num1=int(input("enter your number: "))
 
 
-# animals = ["dog", "cat", "elephant", "lion"]
-
-# animals.insert(1, "monkey")
-# print(animals)
+num2=int(input("enter your number: "))
 
 
-# names=[]
+num3=int(input("enter your number: "))
 
-# name1=(input("enter your name: "))
 
-# name2=(input("enter your name: "))
+num4=int(input("enter your number: "))
 
-# name3=(input("enter your name: "))
+
+num5=int(input("enter your number: "))
+
+
+number=(num1, num2, num3, num4, num5)
 
 
 
-# names=[name1, name2, name3]
+numbers.append(23)
 
-# names.insert(0,"teacher")
+print(numbers)
 
-# names.pop(3)
-# print(names)
+colors = ["red", "green", "blue", "yellow", "purple"]
+
+colors.pop()  
+print(colors)
+
+
+animals = ["dog", "cat", "elephant", "lion"]
+
+animals.insert(1, "monkey")
+print(animals)
+
+
+names=[]
+
+name1=(input("enter your name: "))
+
+name2=(input("enter your name: "))
+
+name3=(input("enter your name: "))
+
+
+
+names=[name1, name2, name3]
+
+names.insert(0,"teacher")
+
+names.pop(3)
+print(names)
 
 
 
@@ -110,4 +112,18 @@ def didi_asoebi(text):
 
 
 result = didi_asoebi("vai")
+print(result)
+
+
+
+
+
+
+
+def fullname(a,b):
+    return a + b
+
+result = fullname("saba", "salukvadze")
+
+
 print(result)
