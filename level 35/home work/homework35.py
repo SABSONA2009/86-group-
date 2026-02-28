@@ -2,12 +2,12 @@
 
 
 
-# def jami(a, b):
-#     return a + b
+def jami(a, b):
+    return a + b
 
 
-# result = jami(5, 7)
-# print(result)
+result = jami(5, 7)
+print(result)
 
 
 

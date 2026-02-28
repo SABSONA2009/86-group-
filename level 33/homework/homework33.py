@@ -54,7 +54,6 @@ animals.insert(1, "monkey")
 print(animals)
 
 
-names=[]
 
 name1=(input("enter your name: "))
 
@@ -84,18 +83,18 @@ print(result)
 
 
 
-# def num (a):
-#     return num % 2 == 0
+def num (a):
+    return num % 2 == 0
 
 
-# result=num(5)
+result=num(5)
 
 
-# if num % 2 == 0:
-#     print("luwia")
+if num % 2 == 0:
+    print("luwia")
 
-# else:
-#     print("kenta")
+else:
+    print("kentia")
 
 def kvadrati(a):
     return a ** 2
