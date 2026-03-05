@@ -28,5 +28,3 @@ name=["saba" , "ana"]
 
 print(name[0])
 
-
-
