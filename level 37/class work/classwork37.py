@@ -26,7 +26,7 @@ def text(a,b):
 
 
 def num(a,b):
-   
+    a = input("enter word")
     if a == "salami":
         print("you got it")
 
@@ -37,20 +37,15 @@ def num(a,b):
 
 
 
+def numeee(a,b,c):
+    a =input("w")
 
-a=int(input("enter your number: "))
-b=int(input("enter your number: "))
-c=int(input("enter your number: "))
+    b =input("s")
 
-num = (a,b,c)
-
-
+    c =input("d")
 
 
 
-for num in range(a,b,c):
-
-    print(num)
 
 
 

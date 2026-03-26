@@ -1,0 +1,55 @@
+body {
+    
+    background-color: #eee;
+    text-align: center;
+}
+
+
+.saba {
+    width: 80%;
+    
+    border-collapse: collapse;
+}
+
+.saba th {
+    background-color: #8bc34a;
+    color: white;
+    
+}
+
+.saba td {
+    background-color: #c5e1a5;
+    
+    border:solid white;
+}
+
+
+.employee-table {
+    width: 60%;
+    
+    border-collapse: collapse;
+}
+
+.employee-table th {
+    background-color: #2e7d32;
+    color: white;
+    
+}
+
+.employee-table td {
+    
+    border:solid #333;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.highlight {
+    background-color: #26a69a;
+    color: white;
+}
+
+
+
+
