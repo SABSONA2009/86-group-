@@ -1,0 +1,13 @@
+input {
+    background-color: gray;
+    color: red;
+    font-family: fantasy;
+    width: 100px;
+    height: 20px;
+}
+
+button {
+    color: chocolate;
+    background-color: chartreuse;
+
+}
