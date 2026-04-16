@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #ddd;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top, .bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.right, .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.big {
+  flex: 1;
+  height: 260px;
+  background: tomato;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row div {
+  flex: 1;
+  height: 120px;
+  background: tomato;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,48 @@
+.dark {
+    
+    color: white;
+    background-color: #333333;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+    
+    
+    
+    
+    
+
+}
+
+body {
+    background-color: #1f1f1f; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ana {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#saba {
+    color: #b1ca6b;
+}
+
+img {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+#main {
+    border: black solid 3px;
+}
