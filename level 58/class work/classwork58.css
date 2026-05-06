@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.grid {
+    display: grid;
+    gap: 15px;
+    padding: 30px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img5 img6";
+}
+
+
+
+
+
+.saba {
+    height: 200px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#img1 { 
+    background-image: url("download (1).jpg"); 
+}
+#img2 { 
+    background-image: url("download (2).jpg");
+ }
+#img3 { 
+    background-image: url("download (3).jpg");
+ }
+#img4 { 
+    background-image: url("download (4).jpg");
+ }
+#img5 { 
+    background-image: url("download (5).jpg");
+ }
+#img6 { 
+    background-image: url(download.jpg);
+ }
+
+
+ h1 {
+    text-align: center;
+ }
+
+ p {
+    color: white;
+    text-align: center;
+ }

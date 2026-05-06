@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+  gap: 20px;
+  width: 1000px;
+  margin: auto;
+}
+
+
+#daniel {
+  grid-area: daniel;
+}
+
+#jonathan {
+  grid-area: jonathan;
+}
+
+#kira {
+  grid-area: kira;
+}
+
+#jeanette {
+  grid-area: jeanette;
+}
+
+#patrick {
+  grid-area: patrick;
+}
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.purple { 
+    background: #8445e9; 
+}
+.gray { 
+    background: #374152; 
+}
+.dark { 
+    background: #141a24; 
+}
+
+
+.white , .light {
+  background: pink;
+  color: black;
+}

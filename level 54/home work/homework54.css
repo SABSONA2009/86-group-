@@ -1,0 +1,100 @@
+.saba {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    background-image: url(download.jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.saba1 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    
+    background-image: url(download\ \(1\).jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.saba2 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    background-image: url(download\ \(2\).jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.saba3 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    background-image: url(download\ \(3\).jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.saba4 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    background-image: url(download\ \(4\).jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.saba5 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-direction: inherit;
+    background-image: url(nightlife-2162772_1920-e1531303119402.jpg);
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+
+
+body {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
