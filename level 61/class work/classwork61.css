@@ -1,0 +1,35 @@
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: green; 
+  margin: 50px auto;
+}
+
+
+.box:hover {
+  animation: colorChange 5s ;
+  animation-iteration-count: 5;
+}
+
+
+@keyframes colorChange {
+
+  0% {
+    background-color: green;
+  }
+
+  33% {
+    background-color: red;
+  }
+
+  66% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: black;
+  }
+
+}
+
+/* ანიმაცია რომ უსასრულოდ გავუშვათ ვიყენებთ animation-iteration-count: infinite; ს*/

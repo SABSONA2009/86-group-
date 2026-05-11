@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+
+  
+
+
+  transition: 2s;
+  transition-delay: 5s;
+
+  transform-origin: top right;
+}
+
+
+.box:hover {
+  transform: 
+    translate(200px, -300px)
+    scale(3)
+    rotate(-45deg);
+}
